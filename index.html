@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.6.4/math.js"></script>
+  </head>
+  <body>
+    <div class="workPlace">
+      <div class="display">
+        <p id="answer"></p>
+        <p id="value"></p>
+      </div>
+      <div class="numbers">
+        <input type="button" value="AC" class="butt" onclick="clr()" />
+        <input type="button" value="⌫" class="butt" onclick="del()" />
+        <input type="button" value="-" class="butt" onclick="getNum(this)" />
+        <input type="button" value="+" class="butt" onclick="getNum(this)" />
+        <input
+          type="button"
+          value="1"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input
+          type="button"
+          value="2"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input
+          type="button"
+          value="3"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input type="button" value="*" class="butt" onclick="getNum(this)" />
+        <input
+          type="button"
+          value="4"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input
+          type="button"
+          value="5"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input
+          type="button"
+          value="6"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input type="button" value="/" class="butt" onclick="getNum(this)" />
+        <input
+          type="button"
+          value="7"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input
+          type="button"
+          value="8"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input
+          type="button"
+          value="9"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input type="button" value="=" class="butt equ" onclick="equ()" />
+        <input
+          type="button"
+          value="0"
+          class="butt num"
+          onclick="getNum(this)"
+        />
+        <input
+          type="button"
+          value="."
+          class="butt dot"
+          onclick="getNum(this)"
+        />
+      </div>
+    </div>
+  </body>
+</html>
